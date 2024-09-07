@@ -27,7 +27,7 @@ app.use('/api/v1/transaction', transactionRouter)
 
 const routesDef = {
     user : {
-        getUser : "api/v1/user/getall"
+        getUser : "/api/v1/user/getall"
     },
     books:{
         getBook : "/api/v1/book/getall",
